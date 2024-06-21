@@ -53,7 +53,7 @@ Configuration variables:
 Thermostat Support
 ------------------------
 
-An MHK2 thermostat can be connected via a second UART component.  Communication from the thermostat will be forwarded to the equipment, allowing both the thermostat and Home Assistant to be used for control.  The thermostat can also be used as a temperature source when connected.
+An MHK2 thermostat can be connected via a second UART component.  Communication from the thermostat will be forwarded to the equipment, allowing both the thermostat and Home Assistant to be used for control.  The thermostat can also be used as a temperature source when connected.  Note that the MHK2 transciever requires 12v power from the CN105 connector, and that the Tx/Rx lines are reversed.
 
 Temerature Sources
 ------------------------
